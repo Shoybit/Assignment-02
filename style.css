@@ -191,6 +191,57 @@ button.card-btn {
 img.card-img {
     width: 90%;
 }
+/* flower */
+
+.Flower-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+}
+
+section.Flower {
+    margin-top: 3.5rem;
+}
+
+
+img.top-img {
+    width: 330px;
+    position: absolute;
+    margin-top: -877px;
+    margin-left: 429px;
+}
+
+h1.Flower-h1 {
+    font-size: 3.12rem;
+    max-width: 400px;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+
+}
+li.flower-li {
+    font-size: 1.37rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 423px;
+    margin-bottom: 15px;
+     font-family: "Inter", sans-serif;
+
+}
+
+img.Flower-img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* responsive mobile */
@@ -248,5 +299,12 @@ img.card-img {
     button.card-btn{
         width: 221px;
     }
-
+    img.top-img{
+        display: none;
+    }
+    .Flower-main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    }
 }
