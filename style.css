@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.noto-serif-uniquifier {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* css start */
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/* heder section */
+.head-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main nav ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin-left: 832px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-main nav ul li a {
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+a.home {
+    color: rgba(37, 36, 50, 1);
+    font-weight: 800;
+}
+a.shop {
+    color: rgba(137, 135, 161, 1);
+}
+
+a.about {
+    color: rgba(137, 135, 161, 1);
+}
+.icon-p {
+    color: rgba(0, 0, 0, 1);
+}
+
+i.bx.bx-cart {
+    font-size: 1.8rem;
+}
+.logo img{
+    max-width: 100%;
+}
+/* ALWAYS section*/
+
+section.Always {
+    margin-top: 7.5rem;
+}
+
+h1.Always-h1 {
+    max-width: 600px;
+    font-size: 4.06rem;
+    font-family: "Noto Serif", serif;
+}
+
+p.alwyes-p {
+    max-width: 565px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+/* .Always-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.Always-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+}
+
+.Always-img img{
+    max-width: 100%;
+}
+
+ .Always-h1 span {
+    color: rgba(233, 90, 8, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive mobile */
+
+@media screen and (max-width: 576px){
+    .nav-main {
+        display: none;
+    }
+    .logo img{
+        max-width: 50%;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .icon{
+        margin-right: 20px;
+    }
+
+    .Always-main{
+        grid-template-columns: 1fr;
+    }
+    .Always-title{
+        order: 2;
+        margin-top: -300px;
+    }
+    .Always-img img{
+        order: 1;
+        max-width: 100%;
+    }
+    h1.Always-h1{
+        font-size: 43px;
+        margin-left: 20px;
+    }
+    
+    p.alwyes-p{
+        margin-left: 20px;
+        font-size: 19px;
+        max-width: 495px;
+    }
+
+
+
+
+
+
+
+
+
+}
