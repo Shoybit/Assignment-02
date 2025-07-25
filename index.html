@@ -64,50 +64,50 @@
             <div class="card-title">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
             </div>
         </div>
         <div class="card">
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
         <div class="card">
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
         <div class="card">
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
         <div class="card">
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
         <div class="card">
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
         <div class="card"> 
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
         <div class="card">
             <img src="./image/sample-flower-image.png" alt="" class="card-img">
             <p class="card-p">Lily Blossom</p>
             <h3 class="card-h3">20 USD</h3>
-            <button class="card-btn">ADD TO CART</button>
+            <button id="Alert" class="card-btn">ADD TO CART</button>
         </div>
 
     </div>
@@ -226,6 +226,17 @@
         </div>
     </section>
 </footer>
+
+<!-- Alert with a message -->
+
+<script>
+  document.querySelectorAll('#Alert').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      alert('Flower Added to Cart');
+    });
+  });
+</script>
+
 
 </body>
 </html>
