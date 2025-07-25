@@ -417,11 +417,56 @@ input.-input-btn-buncs {
     font-family: "Inter", sans-serif;
 }
 
+/* footer section */
+section.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 290px;
+}
 
+footer {
+    margin-top: 100px;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
 
+p.foter-logo-p {
+    max-width: 342px;
+    font-size: 1.37rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
 
+footer ul li a {
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    font-family: "Inter", sans-serif;
+}
 
+footer ul li {
+    list-style: none;
+}
 
+footer ul {
+    display: grid;
+    gap: 32px;
+}
+
+img.footer-linkdin {
+    margin-right: 20px;
+}
+
+img.footer-twitter {
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+
+img.footer-facebook {
+    margin-right: 20px;
+}
 
 
 
@@ -606,10 +651,26 @@ input.-input-btn-buncs {
 h2.bunch-h2{
     font-size: 2.4rem;
 }
+.footer-main{
+    margin: 20px 20px;
+    flex-direction: column;
+}
 
+.footer-menu {
+    margin-left: -38px;
+}
 
+.footer-helping {
+    margin-left: -38px;
+}
 
+.footer-icon-social {
+    margin-top: 15px;
+}
 
+section.footer {
+    height: 820px;
+}
 
 
 } 
