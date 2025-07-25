@@ -232,10 +232,9 @@ img.top-img {
 
 h1.Flower-h1 {
     font-size: 3.12rem;
-    max-width: 400px;
+    max-width: 500px;
     font-weight: 800;
     font-family: "Noto Serif", serif;
-
 }
 li.flower-li {
     font-size: 1.59rem;
@@ -380,7 +379,7 @@ p.deal-3-p {
     background-position: center;
 }
 section.bunch {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .buncs-title-main {
     display: flex;
@@ -424,7 +423,7 @@ section.footer {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .footer-main {
     display: flex;
@@ -432,7 +431,7 @@ footer {
 }
 
 p.foter-logo-p {
-    max-width: 342px;
+    max-width: 350px;
     font-size: 1.37rem;
     font-weight: 400;
     font-family: "Inter", sans-serif;
@@ -531,7 +530,7 @@ img.footer-facebook {
 
     p.plants.p{
         font-size: 14px;
-        max-width: 341px;
+        max-width: 336px;
     }
 
     .card-container{
@@ -547,6 +546,7 @@ img.footer-facebook {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 30px;
     }
     img.top-img{
         display: none;
@@ -630,6 +630,7 @@ h3.card-h3{
     font-size: 14px;
     display: flex;
     justify-content: center;
+    margin-top: -8px;
 }
 
 h1.Flower-h1 {
@@ -664,7 +665,7 @@ input.-input-btn-buncs {
 
 
 h2.bunch-h2{
-    font-size: 2.4rem;
+    font-size: 1.5rem;
 }
 .footer-main{
     margin: 20px 20px;
